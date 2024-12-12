@@ -1,21 +1,31 @@
-# Where are the IT Jobs today in Sweden?
+# Where Are the IT Jobs in Sweden Today?
 
 ## Background
-I got laid off last year. I started to look for jobs this year without luck. 10+ years mobile development experience, last job at Spotify, Nope! That makes me reflect,  where are the jobs nowadays? I understand that market is tough considering the global recession, but 1 tech job with over 100 applications, that's frustrating! 
+I was laid off last year and started looking for jobs this year, but without any luck. With over 10 years of experience in mobile development and my last position at Spotify, I still haven't found anything. This has made me reflect: where are the jobs nowadays?
 
-I start to think, a lot of you, are like me, sitting in front of the computer, sending out hundreds of apllications without luck. I thought I need to understand where the IT jobs are nowadays, so that I can have a better chance. 
+I understand that the market is tough due to the global recession, but seeing one tech job attracting over 100 applicants is disheartening!
 
+I started to wonder if many of you are like me—sitting in front of your computer, sending out hundreds of applications without success. That’s when I realized I need to understand where the IT jobs are today, so I can better target my efforts.
 
-## How Does The Script Work? 
-I wrote a python script, taking content from the arbetsförmedlingen, platsbanken (filter: Stockholm, IT), saved it as a text file. In my python script, I set a few common IT keywords to check what jobs are listed most frequent. Then I visualize it as a chart. 
+## How Does the Script Work? 
+I wrote a Python script that processes job postings from Arbetsförmedlingen Platsbanken (filteres: Stockholm and IT jobs). The search results are saved as a text file, the script searches for common IT-related keywords to identify the most frequently listed jobs.
+
+The output from the script is visualized in the chart below:
 
 ![Search Result](result.png)
 
-## How to reuse the script?
- For you to resue the script in your market, change the content in the textfile, change the search keyboards in the python script. All the functions shoud work properly. 
+## How to Reuse the Script
+To reuse the script for your market:
 
+1. Replace the content in the text file with job postings from your region or industry.
+2. Update the search keywords in the Python script.
 
-## Limitation of the script
-Initially, I would like to scrape the dynamic content from the arbetsförmedlingen, platsbanken, the data was fetched by javascript, I could not get the real content, but just some variable names, like ids. If you want to spend time into making this work, that's great. It is a just an adhoc experiment for me. I hope this can help me and others.
+All the functions should work as intended after these adjustments.
+
+## Script Limitations
+Initially, I wanted to scrape the dynamic content directly from Arbetsförmedlingen Platsbanken, but the website uses JavaScript to fetch its data. Even with some twists, I could only retrieve variable names, like IDs, rather than the actual content.
+
+If you have the time and skills to make the scraper work, that would be fantastic! For me, this is just an ad hoc experiment. I hope it can help both myself and others gain better insights into the job market.
+
 
 
